@@ -1,0 +1,131 @@
+
+
+.woocommerce #content .quantity .minus, .woocommerce #content .quantity .plus, .woocommerce .quantity .minus, .woocommerce .quantity .plus, .woocommerce-page #content .quantity .minus, .woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page .quantity .plus {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    border-radius: 0;
+}
+
+.woocommerce div.product .cart .quantity {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.woocommerce div.product .summary p.price, .woocommerce div.product .summary p.price span.amount {
+    padding-bottom: 15px;
+}
+
+.q_accordion_holder.accordion.boxed .ui-accordion-header {
+    background-color: #000;
+}
+
+.q_accordion_holder.accordion .ui-accordion-header:hover {
+    color: #999999!important;
+}
+
+.q_accordion_holder.accordion .ui-accordion-header, .q_accordion_holder.accordion.with_icon .ui-accordion-header {
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-size:  17px;
+    line-height: 24px;
+    color: #fff;
+}
+.woocommerce table.shop_attributes th {
+    font-weight: 400;
+}
+.woocommerce div.product div.product_meta>.social_share_list_holder>span, .woocommerce div.product div.product_meta>span {
+    font-weight: 400;
+}
+.woocommerce div.product div.related .qode-related-upsells-title, .woocommerce div.product div.related h4, .woocommerce div.product div.upsells .qode-related-upsells-title, .woocommerce div.product div.upsells h4 {
+    padding-top: 50px;
+}
+.woocommerce-page .content .container .container_inner{
+    padding-bottom: 80px;
+}
+@media only screen and (max-width: 768px){
+    .woocommerce table.cart td.actions{
+        text-align: left;
+    }
+
+    .woocommerce-page.woocommerce-cart .woocommerce-cart-form .coupon input.button{
+        float: none;
+    }
+
+    .woocommerce-page.woocommerce-cart .woocommerce-cart-form input.button{
+        float: left;
+    }
+
+    .woocommerce table.cart td.actions>.checkout-button{
+        float: left;
+    }
+
+    .woocommerce .quantity .plus, .woocommerce .quantity .minus{
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .woocommerce .quantity .plus, .woocommerce .quantity .minus{
+        width: 15px;
+        height: 15px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .woocommerce table.cart td.actions>.checkout-button, .woocommerce-page.woocommerce-cart .woocommerce-cart-form input.button{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .woocommerce-cart table.cart tbody tr td{
+        padding: 10px 1px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .woocommerce-cart table.cart tbody tr td,
+    .woocommerce-page table.cart thead tr th{
+        font-size: 12px;
+    }
+}
+
+.woocommerce #respond #reply-title, .woocommerce #reviews h2 {
+    font-size: 15px;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.qbutton.add-to-cart-button {
+    padding: 0 40px;
+}
+.woocommerce ul.products li.product:hover .image-wrapper img {
+    opacity: .5;
+}
+nav.main_menu ul li a span.underline_dash, nav.vertical_menu ul li a span.underline_dash {
+    width: 100%;
+}
+nav.main_menu ul li a span.underline_dash {
+    bottom: 0px;
+}
+.side_menu_button a:last-child {
+    margin: -7px 0 0 16px;
+}
+ .footer_top a:not(.qbutton):hover {
+border-bottom: 1px solid #edad85;
+}
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea{
+    text-align: center;
+}
+div.wpcf7 .ajax-loader{
+    display: block;
+}
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit{
+    margin-top: 7px;
+}
+#uimg{display:none;position:fixed;z-index:999999;top:50px;right:0;float:right}#uimg1{display:none;position:fixed;z-index:999999;top:50px;right:0;float:right}#uimg2{display:none;position:fixed;z-index:999999;top:50px;right:0;float:right}.hover2{display:none;position:fixed;z-index:999999;top:50px;right:0;float:right}
+a#MagicZoomPlusImage_Main figure div { height: 0px !important; }
+a#MagicZoomPlusImage_Main figure span { height: 0px !important; }
+a#MagicZoomPlusImage_Main figure .mz-lens { height: 160px !important; }
